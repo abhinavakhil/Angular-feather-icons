@@ -1,0 +1,1334 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.3",
+  "deps": {
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular-eslint/builder": "17.0.1",
+    "@angular-eslint/eslint-plugin": "17.0.1",
+    "@angular-eslint/eslint-plugin-template": "17.0.1",
+    "@angular-eslint/schematics": "17.0.1",
+    "@angular-eslint/template-parser": "17.0.1",
+    "@angular/animations": "^17.0.2",
+    "@angular/cli": "^17.0.0",
+    "@angular/common": "^17.0.2",
+    "@angular/compiler": "^17.0.2",
+    "@angular/compiler-cli": "^17.0.2",
+    "@angular/core": "^17.0.2",
+    "@angular/platform-browser": "^17.0.2",
+    "@angular/platform-browser-dynamic": "^17.0.2",
+    "@types/jasmine": "~5.1.2",
+    "@types/node": "^20.9.0",
+    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/parser": "6.10.0",
+    "del": "^7.1.0",
+    "eslint": "^8.53.0",
+    "feather-icons": "4.29.1",
+    "fs-extra": "^11.1.1",
+    "jasmine-core": "~5.1.1",
+    "jasmine-spec-reporter": "~7.0.0",
+    "karma": "~6.4.2",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0",
+    "ng-packagr": "^17.0.0",
+    "rxjs": "^7.8.1",
+    "ts-node": "~10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "~5.2.2",
+    "uppercamelcase": "^3.0.0",
+    "zone.js": "~0.14.2"
+  },
+  "pathMappings": {
+    "angular-feather-icons": [
+      "dist/angular-feather-icons/angular-feather-icons",
+      "dist/angular-feather-icons"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "6700999671454618316"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18015635467534722311"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "7874121438330345892"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15607969414107917459"
+      },
+      {
+        "file": "LIST.md",
+        "hash": "4482318545532871132"
+      },
+      {
+        "file": "README.md",
+        "hash": "1338074326811135106"
+      },
+      {
+        "file": "angular.json",
+        "hash": "6321710274054218592"
+      },
+      {
+        "file": "docs.js",
+        "hash": "18095269740169276992"
+      },
+      {
+        "file": "generate.js",
+        "hash": "11722146057554074923"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "7259190627779002430"
+      },
+      {
+        "file": "package.json",
+        "hash": "14998484097790638568"
+      },
+      {
+        "file": "projects/angular-feather-icons/.browserslistrc",
+        "hash": "6165074118889652750"
+      },
+      {
+        "file": "projects/angular-feather-icons/.eslintrc.json",
+        "hash": "14966588226809961175"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/all.ts",
+        "hash": "11068789228913830750"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/index.ts",
+        "hash": "1471142366994287478"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/ng-package.json",
+        "hash": "8607888361431674511"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/activity.ts",
+        "hash": "120261879372555607"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/airplay.ts",
+        "hash": "17368571688908701318"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/alert-circle.ts",
+        "hash": "7202765352287154311"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/alert-octagon.ts",
+        "hash": "9668352275366522862"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/alert-triangle.ts",
+        "hash": "9182106242938262781"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/align-center.ts",
+        "hash": "15322281086858352769"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/align-justify.ts",
+        "hash": "18091018598500173973"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/align-left.ts",
+        "hash": "4884990459733775397"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/align-right.ts",
+        "hash": "4611602676236553442"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/anchor.ts",
+        "hash": "10407413090122990307"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/aperture.ts",
+        "hash": "8369455208780500017"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/archive.ts",
+        "hash": "606099029587802274"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-down-circle.ts",
+        "hash": "8744564417828741165"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-down-left.ts",
+        "hash": "8138155921202797189"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-down-right.ts",
+        "hash": "11095822149975446420"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-down.ts",
+        "hash": "4811575422929496567"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-left-circle.ts",
+        "hash": "1718792604939811518"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-left.ts",
+        "hash": "8921512956448257116"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-right-circle.ts",
+        "hash": "14192614228218698121"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-right.ts",
+        "hash": "17664041910987866274"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-up-circle.ts",
+        "hash": "4490307132427276800"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-up-left.ts",
+        "hash": "560672546564620315"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-up-right.ts",
+        "hash": "15899096413282415463"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/arrow-up.ts",
+        "hash": "3728897649529576082"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/at-sign.ts",
+        "hash": "16309422369381069061"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/award.ts",
+        "hash": "7677664438483283340"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bar-chart-2.ts",
+        "hash": "10931662000911288707"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bar-chart.ts",
+        "hash": "18432792062438083087"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/battery-charging.ts",
+        "hash": "5955295911334438891"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/battery.ts",
+        "hash": "305143658145542390"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bell-off.ts",
+        "hash": "16369181321310804991"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bell.ts",
+        "hash": "13824330130204108018"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bluetooth.ts",
+        "hash": "13358822545569312728"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bold.ts",
+        "hash": "11439766242695632735"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/book-open.ts",
+        "hash": "7104162613628543022"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/book.ts",
+        "hash": "6062614604852115511"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/bookmark.ts",
+        "hash": "18172305122420738838"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/box.ts",
+        "hash": "6274041584347409747"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/briefcase.ts",
+        "hash": "4326897466785603759"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/calendar.ts",
+        "hash": "10831877269191340747"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/camera-off.ts",
+        "hash": "6787449417185759988"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/camera.ts",
+        "hash": "17657406030993124515"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cast.ts",
+        "hash": "9812134970907843026"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/check-circle.ts",
+        "hash": "7017650641346580701"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/check-square.ts",
+        "hash": "16023328919295112115"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/check.ts",
+        "hash": "12148779146969217282"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevron-down.ts",
+        "hash": "2430331410251316299"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevron-left.ts",
+        "hash": "339910009870435321"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevron-right.ts",
+        "hash": "4657293109550110425"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevron-up.ts",
+        "hash": "5464060184957334584"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevrons-down.ts",
+        "hash": "2665309721284437793"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevrons-left.ts",
+        "hash": "7100538495705361014"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevrons-right.ts",
+        "hash": "15215935951566667924"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chevrons-up.ts",
+        "hash": "10722861322357680045"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/chrome.ts",
+        "hash": "5569340707082164939"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/circle.ts",
+        "hash": "1022425969545781163"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/clipboard.ts",
+        "hash": "6415269324142376184"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/clock.ts",
+        "hash": "15098379291286678376"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cloud-drizzle.ts",
+        "hash": "5104172978508933772"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cloud-lightning.ts",
+        "hash": "3786847554282782851"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cloud-off.ts",
+        "hash": "13414600991026603390"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cloud-rain.ts",
+        "hash": "11863930491496986838"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cloud-snow.ts",
+        "hash": "8294391079812257744"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cloud.ts",
+        "hash": "7228846368770563027"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/code.ts",
+        "hash": "10913900190516372438"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/codepen.ts",
+        "hash": "5767343688425370707"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/codesandbox.ts",
+        "hash": "3920719842129329842"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/coffee.ts",
+        "hash": "3456770784144821582"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/columns.ts",
+        "hash": "14937862901939289665"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/command.ts",
+        "hash": "13039432400066307075"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/compass.ts",
+        "hash": "1088375503363397415"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/copy.ts",
+        "hash": "8231418157114740262"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-down-left.ts",
+        "hash": "10542632351807984544"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-down-right.ts",
+        "hash": "14817520356115825141"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-left-down.ts",
+        "hash": "13197485108290097954"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-left-up.ts",
+        "hash": "9978809393178121927"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-right-down.ts",
+        "hash": "17966219868433483852"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-right-up.ts",
+        "hash": "17999564138508664282"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-up-left.ts",
+        "hash": "1230584580173565210"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/corner-up-right.ts",
+        "hash": "16542361609995139727"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cpu.ts",
+        "hash": "3381718048297695457"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/credit-card.ts",
+        "hash": "7693068771504309050"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/crop.ts",
+        "hash": "2626725256621532438"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/crosshair.ts",
+        "hash": "9860478022140452661"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/database.ts",
+        "hash": "13049866612988672744"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/delete.ts",
+        "hash": "14348696349041143"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/disc.ts",
+        "hash": "1150643004802560241"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/divide-circle.ts",
+        "hash": "7959547474859927649"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/divide-square.ts",
+        "hash": "15614493925981513526"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/divide.ts",
+        "hash": "2034944608828183576"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/dollar-sign.ts",
+        "hash": "551890381337765264"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/download-cloud.ts",
+        "hash": "15034988570406182634"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/download.ts",
+        "hash": "7127052082725737854"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/dribbble.ts",
+        "hash": "5125369879639397059"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/droplet.ts",
+        "hash": "8758686150146349410"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/edit-2.ts",
+        "hash": "11821921694133042811"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/edit-3.ts",
+        "hash": "17629012272785179401"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/edit.ts",
+        "hash": "7239986373960129582"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/external-link.ts",
+        "hash": "3088619807757152445"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/eye-off.ts",
+        "hash": "12379164981718592453"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/eye.ts",
+        "hash": "176167143626665600"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/facebook.ts",
+        "hash": "11750259242091160883"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/fast-forward.ts",
+        "hash": "1266746404315108035"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/feather.ts",
+        "hash": "9168093870554622144"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/figma.ts",
+        "hash": "6906377026288562200"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/file-minus.ts",
+        "hash": "15366450539139934510"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/file-plus.ts",
+        "hash": "2303257338419568479"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/file-text.ts",
+        "hash": "4602899703544714883"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/file.ts",
+        "hash": "5900346229324535640"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/film.ts",
+        "hash": "2218750226513354320"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/filter.ts",
+        "hash": "9467829028766504740"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/flag.ts",
+        "hash": "15075629481320492011"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/folder-minus.ts",
+        "hash": "15411949697288466583"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/folder-plus.ts",
+        "hash": "8838539279536432708"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/folder.ts",
+        "hash": "9240702226908976023"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/framer.ts",
+        "hash": "14169615634792105709"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/frown.ts",
+        "hash": "4689153554777184645"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/gift.ts",
+        "hash": "11627343961903059726"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/git-branch.ts",
+        "hash": "18092012247746434713"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/git-commit.ts",
+        "hash": "6771823808887972638"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/git-merge.ts",
+        "hash": "11296409754086452162"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/git-pull-request.ts",
+        "hash": "2517884398841647120"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/github.ts",
+        "hash": "1467088976689952922"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/gitlab.ts",
+        "hash": "7929191416841135828"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/globe.ts",
+        "hash": "11510113966677409918"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/grid.ts",
+        "hash": "9349172207239526071"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/hard-drive.ts",
+        "hash": "14095234205944223148"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/hash.ts",
+        "hash": "14930389726426518016"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/headphones.ts",
+        "hash": "7784207278685737273"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/heart.ts",
+        "hash": "7792994182860199267"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/help-circle.ts",
+        "hash": "7861494718539941579"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/hexagon.ts",
+        "hash": "12690882637603139005"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/home.ts",
+        "hash": "15708758259646752733"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/image.ts",
+        "hash": "4196304575314282023"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/inbox.ts",
+        "hash": "14258126315617422547"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/info.ts",
+        "hash": "17203697387131818743"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/instagram.ts",
+        "hash": "3227465494122962474"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/italic.ts",
+        "hash": "648950456034507215"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/key.ts",
+        "hash": "6255099193091105413"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/layers.ts",
+        "hash": "6443078343904788703"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/layout.ts",
+        "hash": "6486827980098390937"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/life-buoy.ts",
+        "hash": "2307039940364095340"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/link-2.ts",
+        "hash": "6344497718174184072"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/link.ts",
+        "hash": "360208337510546863"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/linkedin.ts",
+        "hash": "3879287822259495950"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/list.ts",
+        "hash": "3707421438307609687"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/loader.ts",
+        "hash": "12629781431800645152"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/lock.ts",
+        "hash": "7107441774440574954"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/log-in.ts",
+        "hash": "5955568965508401726"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/log-out.ts",
+        "hash": "8407338825798298169"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/mail.ts",
+        "hash": "17347567868159195059"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/map-pin.ts",
+        "hash": "8847095821715781996"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/map.ts",
+        "hash": "10676868952770021401"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/maximize-2.ts",
+        "hash": "6130197681891624762"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/maximize.ts",
+        "hash": "416268744675291111"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/meh.ts",
+        "hash": "10946726899812741128"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/menu.ts",
+        "hash": "3434044771660452444"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/message-circle.ts",
+        "hash": "12755771200937813364"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/message-square.ts",
+        "hash": "17038743570366585023"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/mic-off.ts",
+        "hash": "11189630351213617143"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/mic.ts",
+        "hash": "5061130176730553201"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/minimize-2.ts",
+        "hash": "4909894298621723745"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/minimize.ts",
+        "hash": "17008028853537442894"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/minus-circle.ts",
+        "hash": "2578070490084398037"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/minus-square.ts",
+        "hash": "13442450632409422262"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/minus.ts",
+        "hash": "15208760897910780785"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/monitor.ts",
+        "hash": "736812875526532863"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/moon.ts",
+        "hash": "10073074932736344015"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/more-horizontal.ts",
+        "hash": "4593096168919907036"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/more-vertical.ts",
+        "hash": "4189446477112194748"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/mouse-pointer.ts",
+        "hash": "4499662722039540789"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/move.ts",
+        "hash": "13651513070310237431"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/music.ts",
+        "hash": "4798164245306034475"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/navigation-2.ts",
+        "hash": "9851079071513639745"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/navigation.ts",
+        "hash": "16456433782696348578"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/octagon.ts",
+        "hash": "14499462005701161357"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/package.ts",
+        "hash": "14023403662416084079"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/paperclip.ts",
+        "hash": "2254686757610296340"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/pause-circle.ts",
+        "hash": "11623427280982841748"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/pause.ts",
+        "hash": "10693117376023324190"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/pen-tool.ts",
+        "hash": "6310219424486707273"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/percent.ts",
+        "hash": "7668049587423192187"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone-call.ts",
+        "hash": "3454710225216551426"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone-forwarded.ts",
+        "hash": "979759668539825530"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone-incoming.ts",
+        "hash": "9520928641480288046"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone-missed.ts",
+        "hash": "16068957147788220444"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone-off.ts",
+        "hash": "18224705549619817728"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone-outgoing.ts",
+        "hash": "12486436089902328134"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/phone.ts",
+        "hash": "15316049036752381957"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/pie-chart.ts",
+        "hash": "11180567985431076396"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/play-circle.ts",
+        "hash": "8862321198919582740"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/play.ts",
+        "hash": "8550259295872868996"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/plus-circle.ts",
+        "hash": "2125310016929486485"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/plus-square.ts",
+        "hash": "8844721577034760632"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/plus.ts",
+        "hash": "8750903067687438835"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/pocket.ts",
+        "hash": "12638870680267719384"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/power.ts",
+        "hash": "4564254036761136279"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/printer.ts",
+        "hash": "1189108940254140513"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/radio.ts",
+        "hash": "8365893222591423067"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/refresh-ccw.ts",
+        "hash": "18148567793222905976"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/refresh-cw.ts",
+        "hash": "435433505346117355"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/repeat.ts",
+        "hash": "1434746501638799938"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/rewind.ts",
+        "hash": "16974471068164471573"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/rotate-ccw.ts",
+        "hash": "9177477019180822146"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/rotate-cw.ts",
+        "hash": "9964033176975241202"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/rss.ts",
+        "hash": "5715977125650321591"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/save.ts",
+        "hash": "11672451428993398139"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/scissors.ts",
+        "hash": "3481427205628770825"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/search.ts",
+        "hash": "10475332179490604288"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/send.ts",
+        "hash": "18163343916967661565"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/server.ts",
+        "hash": "12854986961704384351"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/settings.ts",
+        "hash": "11320160124134186765"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/share-2.ts",
+        "hash": "7326497175848921589"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/share.ts",
+        "hash": "6560442326690524315"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/shield-off.ts",
+        "hash": "187330437038510904"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/shield.ts",
+        "hash": "13250849665625732889"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/shopping-bag.ts",
+        "hash": "9074655052442651457"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/shopping-cart.ts",
+        "hash": "10543214634238215708"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/shuffle.ts",
+        "hash": "3903924231016834606"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/sidebar.ts",
+        "hash": "9180372279338328885"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/skip-back.ts",
+        "hash": "2830664100008464559"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/skip-forward.ts",
+        "hash": "1078610197040479328"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/slack.ts",
+        "hash": "1612589761608986380"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/slash.ts",
+        "hash": "2989171277030820729"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/sliders.ts",
+        "hash": "9223401400053599443"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/smartphone.ts",
+        "hash": "17275731258303553012"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/smile.ts",
+        "hash": "8599673810998315800"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/speaker.ts",
+        "hash": "16415288864476164947"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/square.ts",
+        "hash": "9462331877123548210"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/star.ts",
+        "hash": "13656842589936009429"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/stop-circle.ts",
+        "hash": "4432096936988557583"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/sun.ts",
+        "hash": "4356940207037905573"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/sunrise.ts",
+        "hash": "13718427099701984514"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/sunset.ts",
+        "hash": "9725158332823588817"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/table.ts",
+        "hash": "12703192754240998031"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/tablet.ts",
+        "hash": "13099087619696180079"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/tag.ts",
+        "hash": "5258755043050687278"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/target.ts",
+        "hash": "3757719550877369825"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/terminal.ts",
+        "hash": "15710875770209222"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/thermometer.ts",
+        "hash": "8020241308530024096"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/thumbs-down.ts",
+        "hash": "16247931603077967725"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/thumbs-up.ts",
+        "hash": "11116993999678729787"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/toggle-left.ts",
+        "hash": "11116029922809857275"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/toggle-right.ts",
+        "hash": "8981722824581205466"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/tool.ts",
+        "hash": "14544419463048348864"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/trash-2.ts",
+        "hash": "15052290334206661533"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/trash.ts",
+        "hash": "10476746584503354524"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/trello.ts",
+        "hash": "4556702655378184015"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/trending-down.ts",
+        "hash": "16513255204331682636"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/trending-up.ts",
+        "hash": "3914773753601587110"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/triangle.ts",
+        "hash": "5814993568304732872"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/truck.ts",
+        "hash": "7606735685719131471"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/tv.ts",
+        "hash": "14411879867676086816"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/twitch.ts",
+        "hash": "10511204837552663994"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/twitter.ts",
+        "hash": "7458908638348992308"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/type.ts",
+        "hash": "4160539215040208342"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/umbrella.ts",
+        "hash": "5855485228137977086"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/underline.ts",
+        "hash": "667245277187055449"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/unlock.ts",
+        "hash": "676254329215274102"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/upload-cloud.ts",
+        "hash": "5826525182410605184"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/upload.ts",
+        "hash": "8420130192351703240"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/user-check.ts",
+        "hash": "17078788650050458653"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/user-minus.ts",
+        "hash": "18153731572933512027"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/user-plus.ts",
+        "hash": "980230774418633094"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/user-x.ts",
+        "hash": "13676847994900622516"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/user.ts",
+        "hash": "17317956489607749620"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/users.ts",
+        "hash": "12133175357800009841"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/video-off.ts",
+        "hash": "11588925277883700255"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/video.ts",
+        "hash": "13637080486654639836"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/voicemail.ts",
+        "hash": "642727123781779310"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/volume-1.ts",
+        "hash": "237621630692350643"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/volume-2.ts",
+        "hash": "3304353582579095205"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/volume-x.ts",
+        "hash": "8578492007478501916"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/volume.ts",
+        "hash": "11007129349772138110"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/watch.ts",
+        "hash": "8007817881459842429"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/wifi-off.ts",
+        "hash": "16368640817896324231"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/wifi.ts",
+        "hash": "17735542491875990751"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/wind.ts",
+        "hash": "193973525884858782"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/x-circle.ts",
+        "hash": "2375021168852410525"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/x-octagon.ts",
+        "hash": "1919435044804266897"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/x-square.ts",
+        "hash": "1668079621237352977"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/x.ts",
+        "hash": "16647781168194208912"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/youtube.ts",
+        "hash": "7933607596261303620"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/zap-off.ts",
+        "hash": "7076796453667441939"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/zap.ts",
+        "hash": "1282805358086857027"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/zoom-in.ts",
+        "hash": "3144457338574794100"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/zoom-out.ts",
+        "hash": "16867987658890191561"
+      },
+      {
+        "file": "projects/angular-feather-icons/karma.conf.js",
+        "hash": "5648912202543492309"
+      },
+      {
+        "file": "projects/angular-feather-icons/ng-package.json",
+        "hash": "1783017287980400008"
+      },
+      {
+        "file": "projects/angular-feather-icons/package.json",
+        "hash": "6538901428810950480"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/lib/feather.component.html",
+        "hash": "11276105877545240770"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/lib/feather.component.scss",
+        "hash": "3920632751273407939"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/lib/feather.component.ts",
+        "hash": "4586190248338259449"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/lib/feather.module.ts",
+        "hash": "5487847471486581472"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/lib/icons.provider.ts",
+        "hash": "2882055946799487826"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/lib/utils.ts",
+        "hash": "3513250553109163575"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/public-api.ts",
+        "hash": "12629426680932876616"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/templates/component.ts.tpl",
+        "hash": "7806797710638083487"
+      },
+      {
+        "file": "projects/angular-feather-icons/src/test.ts",
+        "hash": "2523503035187229891"
+      },
+      {
+        "file": "projects/angular-feather-icons/tsconfig.lib.json",
+        "hash": "5157825601402399890"
+      },
+      {
+        "file": "projects/angular-feather-icons/tsconfig.lib.prod.json",
+        "hash": "1842156517679849585"
+      },
+      {
+        "file": "projects/angular-feather-icons/tsconfig.spec.json",
+        "hash": "17465711473244694148"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3741122850419334343"
+      }
+    ]
+  }
+}
