@@ -11,12 +11,12 @@
 This package allows you to use the [Feather Icons](https://github.com/colebemis/feather) in your angular applications. The icons are designed by Cole Bemis.
 Import only the icons that you need.
 
-### Demo
+<!-- ### Demo
 <h4>
   <a href="https://stackblitz.com/edit/angular-feather-icons?file=src%2Fapp%2Fapp.component.html">
     >> See live demo <<
   </a>  (right-click, open in new tab)
-</h4>
+</h4> -->
 
 ### Usage
 

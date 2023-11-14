@@ -62,6 +62,22 @@
         "hash": "18015635467534722311"
       },
       {
+        "file": ".nx/cache/file-map.json",
+        "hash": "10487071029730524809"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "11723504106401338049"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "565891474361357931"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "10350191015561425413"
+      },
+      {
         "file": "CHANGELOG.md",
         "hash": "7874121438330345892"
       },
@@ -75,11 +91,11 @@
       },
       {
         "file": "README.md",
-        "hash": "1338074326811135106"
+        "hash": "12163257346651879401"
       },
       {
         "file": "angular.json",
-        "hash": "6321710274054218592"
+        "hash": "3040456899922834334"
       },
       {
         "file": "docs.js",
@@ -91,7 +107,7 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "7259190627779002430"
+        "hash": "14869605021140845316"
       },
       {
         "file": "package.json",
@@ -1275,7 +1291,7 @@
       },
       {
         "file": "projects/angular-feather-icons/package.json",
-        "hash": "6538901428810950480"
+        "hash": "4770382625930703262"
       },
       {
         "file": "projects/angular-feather-icons/src/lib/feather.component.html",
@@ -1303,7 +1319,7 @@
       },
       {
         "file": "projects/angular-feather-icons/src/public-api.ts",
-        "hash": "12629426680932876616"
+        "hash": "14587912560986463171"
       },
       {
         "file": "projects/angular-feather-icons/src/templates/component.ts.tpl",
