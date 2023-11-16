@@ -1,9 +1,3 @@
-# Warning 
-
-Do not confuse with [angular-feather](https://www.npmjs.com/package/angular-feather) This project is its spiritual successor, and all credit goes to the angular feather team and his fellow contributors which will remain in this project's contributing list.
-
-The intention of this project is to maintain and evolve the solution due to the specific needs of the projects I am working on.
-
 ## angular-feather-icons
 
 <a href="https://www.npmjs.com/package/angular-feather-icons"><img src="https://img.shields.io/npm/v/angular-feather-icons?style=flat-square" /></a>
@@ -423,6 +417,8 @@ export class IconsModule { }
 
 However, keep in mind that by doing this, all icons will end up in your application bundle. While this may not be much of an issue for prototyping, it is not recommended for any application that you plan to release.
 
-### License
+### NOTE
 
-MIT © [Abhinav Akhil](mailto:meabhinavakhil@gmail.com)
+Do not confuse with [angular-feather](https://www.npmjs.com/package/angular-feather) This project is its spiritual successor, and all credit goes to the angular feather team and his fellow contributors which will remain in this project's contributing list.
+
+The intention of this project is to maintain and evolve the solution due to the specific needs of the projects I am working on.
