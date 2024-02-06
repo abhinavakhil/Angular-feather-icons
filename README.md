@@ -404,3 +404,9 @@ export class IconsModule {}
 ```
 
 However, keep in mind that by doing this, all icons will end up in your application bundle. While this may not be much of an issue for prototyping, it is not recommended for any application that you plan to release.
+
+### NOTE
+
+Do not confuse with [angular-feather](https://www.npmjs.com/package/angular-feather) This project is its spiritual successor, and all credit goes to the angular feather team and his fellow contributors which will remain in this project's contributing list.
+
+The intention of this project is to maintain and evolve the solution due to the specific needs of the projects I am working on.
