@@ -3,6 +3,7 @@ import { Airplay } from './svg/airplay';
 import { AlertCircle } from './svg/alert-circle';
 import { AlertOctagon } from './svg/alert-octagon';
 import { AlertTriangle } from './svg/alert-triangle';
+import { Paypal } from './svg/paypal';
 import { AlignCenter } from './svg/align-center';
 import { AlignJustify } from './svg/align-justify';
 import { AlignLeft } from './svg/align-left';
@@ -292,6 +293,7 @@ export const allIcons = {
   AlertCircle,
   AlertOctagon,
   AlertTriangle,
+  Paypal,
   AlignCenter,
   AlignJustify,
   AlignLeft,

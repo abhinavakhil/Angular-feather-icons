@@ -22,8 +22,8 @@
     "@typescript-eslint/parser": "6.10.0",
     "del": "^7.1.0",
     "eslint": "^8.53.0",
-    "feather-icons": "4.29.1",
     "fs-extra": "^11.1.1",
+    "gb-feather-icons": "^1.0.1",
     "jasmine-core": "~5.1.1",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.4.2",
@@ -63,7 +63,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "10487071029730524809"
+        "hash": "5650884322210782112"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -75,7 +75,7 @@
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "10350191015561425413"
+        "hash": "1213833517573497095"
       },
       {
         "file": "CHANGELOG.md",
@@ -91,7 +91,7 @@
       },
       {
         "file": "README.md",
-        "hash": "12163257346651879401"
+        "hash": "10498107014287858559"
       },
       {
         "file": "angular.json",
@@ -111,7 +111,7 @@
       },
       {
         "file": "package.json",
-        "hash": "14998484097790638568"
+        "hash": "4256730900431074545"
       },
       {
         "file": "projects/angular-feather-icons/.browserslistrc",
@@ -122,12 +122,16 @@
         "hash": "14966588226809961175"
       },
       {
+        "file": "projects/angular-feather-icons/README.md",
+        "hash": "10498107014287858559"
+      },
+      {
         "file": "projects/angular-feather-icons/icons/all.ts",
-        "hash": "11068789228913830750"
+        "hash": "9180403139935996018"
       },
       {
         "file": "projects/angular-feather-icons/icons/index.ts",
-        "hash": "1471142366994287478"
+        "hash": "735355514744749047"
       },
       {
         "file": "projects/angular-feather-icons/icons/ng-package.json",
@@ -300,6 +304,10 @@
       {
         "file": "projects/angular-feather-icons/icons/svg/camera.ts",
         "hash": "17657406030993124515"
+      },
+      {
+        "file": "projects/angular-feather-icons/icons/svg/cart.ts",
+        "hash": "12762917532279917170"
       },
       {
         "file": "projects/angular-feather-icons/icons/svg/cast.ts",
@@ -1291,7 +1299,7 @@
       },
       {
         "file": "projects/angular-feather-icons/package.json",
-        "hash": "4770382625930703262"
+        "hash": "17486018878881991428"
       },
       {
         "file": "projects/angular-feather-icons/src/lib/feather.component.html",
